@@ -1,0 +1,45 @@
+body {
+	background: #000;
+}
+.box {
+	float: left;
+	border: 5px double #999;
+	width: 500px;
+	margin: 0 0 0 10%;
+	background: #fff;
+}
+.head {
+	text-align: center;
+	background: #000;
+	color: #fff;
+	padding: 10px;
+	margin: 0;
+	font-family: arial;
+	border-bottom: 1px solid #fff;
+}
+.citra1 {
+	width: 100%;
+	height: 500%;
+	background-image: url(citra1.jpg);
+	background-size: 500px 500px;
+	opacity: 0.3;
+	margin: 0;
+}
+
+.citra1:hover {
+	background-image: url(citra3.jpg);
+	background-size: 500px 500px;
+}
+
+p {
+	text-align: justify;
+	padding: 10px;
+}
+
+.buttton {
+	background: #000;
+	color: #fff;
+	padding: 10px 20px;
+	margin: 0 0 10px;
+	
+}
